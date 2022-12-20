@@ -14,6 +14,7 @@ print(malib)
 oun = f"sdfsdfsdfsdd {adj}"
 
 print("name :"+oun)
+print("name :"+oun)
 
 
 
