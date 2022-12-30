@@ -6,7 +6,7 @@
 
 .allmain {
     width: 1330px;
-    height: 2000px;
+    height: 800px;
     overflow: hidden;
     margin: 2rem;
     box-shadow: 3px 3px 40px darkgrey;
@@ -18,11 +18,13 @@
 
 .main1{
     width: 600px;
-    height: 900px;
+    height: 700px;
     border-radius: 40px;
     margin: 2rem;
     border-radius: 40px;
-
+    overflow: hidden;
+    background-color: aquamarine;
+    
 }
 
 .img1{
@@ -45,11 +47,29 @@
     color: cornflowerblue;
     /* text-align: center; */
 }
-
+.content1 p{
+    /* width: 500px; */
+    padding: 5px;
+    margin: 1rem;
+    color: slategray;
+}
 .footer1 {
     padding: 1rem;
     display: flex;
     flex-direction: row;
+}
+.ft1-l{
+    width: 150px;
+    height: 100px;
+}
+.ft1-m{
+    width: 150px;
+    height: 100px;
+}
+.ft1-r{
+    width: 150px;
+    height: 100px;
+    
 }
 
 .main2{
@@ -70,4 +90,35 @@
 
 .img2 img {
     width: 100%;
+}
+.content2 h2{
+    /* width: 100%; */
+    margin: 1rem;
+    padding: 5px;
+    color: darkgreen;
+    border-bottom: 1px  solid darkgray;
+}
+
+.footer2 {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin: 1rem; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+.ft2-l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ft2-l p{
+    margin: 1rem;
 }
