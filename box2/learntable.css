@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table1 table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table1 th:nth-child(even),td:nth-child(even){
+    background-color: aquamarine;
+}
+.table1 tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+
+.table2 table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table2 table{
+    width: 800px;
+}
+.table2 tr:nth-child(even){
+    background-color: bisque;
+}
+.table2 th,td{
+    text-align: left;
+}
